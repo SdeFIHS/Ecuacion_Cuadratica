@@ -83,7 +83,7 @@ void dos_soluciones(){
 void calcular_resultado(){
 	printf(" a = %g \n b = %g \n c = %g \n", a, b, c);
 	printf(" x = (-b +- sqrt(b^2 - 4ac)) / 2a \n sqrt: raiz cuadrada\n\n");
-	printf("El valor de x es:\n\n");
+	printf("El valor de x es:\n");
 	printf("x = (-%g +- sqrt(%g^2 - 4 * %g * %g)) / (2 * %g) \n", b, b, a, c, a);
 	discriminante = pow(b, 2) - 4 * a * c;
 	printf("x = (%g +- sqrt(%g) / %g)\n\n", -b, discriminante, 2 * a);
