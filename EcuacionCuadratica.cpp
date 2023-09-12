@@ -65,7 +65,6 @@ bool raiz_exacta(){
 }
 
 void dos_soluciones(){
-	printf("Soluciones:\n\n");
 	printf("Soluciones en fraccion:\n\n");
 	if(raiz_exacta()){
 		printf("x1 = %g / %g\n", -b + sqrt(discriminante), 2 * a);
